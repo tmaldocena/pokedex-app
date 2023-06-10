@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/pokedex-app/static/css/main.5dadbd0a.css",
+    "main.js": "/pokedex-app/static/js/main.948756e1.js",
+    "static/css/220.f6d71c11.chunk.css": "/pokedex-app/static/css/220.f6d71c11.chunk.css",
+    "static/js/220.385de640.chunk.js": "/pokedex-app/static/js/220.385de640.chunk.js",
+    "static/js/787.d2388226.chunk.js": "/pokedex-app/static/js/787.d2388226.chunk.js",
+    "static/media/detectivePikachu.png": "/pokedex-app/static/media/detectivePikachu.e62f458cd280f7d529f4.png",
+    "static/media/meme9.jpg": "/pokedex-app/static/media/meme9.014ef83aba92bc49915f.jpg",
+    "static/media/meme1.jpg": "/pokedex-app/static/media/meme1.0a24f73079e90da5038b.jpg",
+    "static/media/meme10.jpg": "/pokedex-app/static/media/meme10.a07c312f6f2b2b8d09d1.jpg",
+    "static/media/meme4.jpg": "/pokedex-app/static/media/meme4.4ae59abcdb84416b14e3.jpg",
+    "static/media/meme11.jpg": "/pokedex-app/static/media/meme11.390ffea75f660409505f.jpg",
+    "static/media/meme7.jpg": "/pokedex-app/static/media/meme7.270282ba5346d4304637.jpg",
+    "static/media/meme3.jpg": "/pokedex-app/static/media/meme3.641a75bfb8a17f41e1ff.jpg",
+    "static/media/meme2.jpg": "/pokedex-app/static/media/meme2.b324447983a2169caf78.jpg",
+    "static/media/meme8.jpg": "/pokedex-app/static/media/meme8.b646d5ef19f131a5e546.jpg",
+    "static/media/pikachu.gif": "/pokedex-app/static/media/pikachu.c70bb52c9351064bd1c6.gif",
+    "static/media/meme13.jpg": "/pokedex-app/static/media/meme13.879c96928a677861a8dd.jpg",
+    "static/media/meme12.jpg": "/pokedex-app/static/media/meme12.f73a321c3b98da33e3ed.jpg",
+    "static/media/meme6.jpg": "/pokedex-app/static/media/meme6.78559f3a314c1b333f68.jpg",
+    "static/media/pokeapi.png": "/pokedex-app/static/media/pokeapi.caf4ff6464b88be6aa0f.png",
+    "static/media/pokemon-background.png": "/pokedex-app/static/media/pokemon-background.dba4f09689a58a72fe4d.png",
+    "static/media/pokeball.svg": "/pokedex-app/static/media/pokeball.c2f1cc9ac3c35204edf5c9083a3c86d8.svg",
+    "index.html": "/pokedex-app/index.html",
+    "static/media/moon.svg": "/pokedex-app/static/media/moon.e572a5b089dbccd4d542.svg",
+    "static/media/expand.svg": "/pokedex-app/static/media/expand.e67dbe243b6a40aaac93a3e7a7c5e29f.svg",
+    "main.5dadbd0a.css.map": "/pokedex-app/static/css/main.5dadbd0a.css.map",
+    "main.948756e1.js.map": "/pokedex-app/static/js/main.948756e1.js.map",
+    "220.f6d71c11.chunk.css.map": "/pokedex-app/static/css/220.f6d71c11.chunk.css.map",
+    "220.385de640.chunk.js.map": "/pokedex-app/static/js/220.385de640.chunk.js.map",
+    "787.d2388226.chunk.js.map": "/pokedex-app/static/js/787.d2388226.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dadbd0a.css",
+    "static/js/main.948756e1.js"
+  ]
+}

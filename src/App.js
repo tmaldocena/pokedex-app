@@ -33,11 +33,11 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='pokedex-app/' index element={ <Home/> } />
-          <Route path='pokedex-app/browse' element={ <Browse/> } />
-          <Route path='pokedex-app/search' element={ <Search/> } />
-          <Route path='pokedex-app/pokemon/:id' element={ <PokeInfo/> } />
-          <Route path='pokedex-app/memes' element={ <Memes/> } />
+          <Route path='/' index element={ <Home/> } />
+          <Route path='/browse' element={ <Browse/> } />
+          <Route path='/search' element={ <Search/> } />
+          <Route path='/pokemon/:id' element={ <PokeInfo/> } />
+          <Route path='/memes' element={ <Memes/> } />
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer/>
