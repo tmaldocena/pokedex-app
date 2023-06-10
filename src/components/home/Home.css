@@ -1,0 +1,25 @@
+.home-content{
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 2rem;
+}
+#hereLink{
+    text-decoration: none;
+    color: var(--menu-text-color);
+}
+#hereLink:hover{
+    color: var(--active);
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    margin: 0;
+}
+.pokeapi-img{
+    width: 20%;
+    vertical-align: bottom;
+}

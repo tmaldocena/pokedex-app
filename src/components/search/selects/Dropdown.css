@@ -1,0 +1,97 @@
+.dropdown-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20%;
+}
+
+.dropdown button {
+    min-width: 130px;
+    width: max-content;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    justify-content: space-evenly;
+  }
+  #dropdown-btn{
+    border-bottom: 1px solid black;
+    background-color: var(--background-main-color-hover);
+    transition: all 0.2 ease-in-out;
+    color: var(--text-color);
+  }
+  .dropdown button img,
+  .dropdown-content li img {
+    width: 20px;
+  }
+  .dropdown button,
+  .dropdown-content li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  #dropdown-btn:hover {
+    cursor: pointer;
+    background-color: var(--button-background-color-hover)
+  }
+  /* Style for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 1px 0 0 0;
+    padding: 0;
+    background-color: var(--background-main-color-hover);
+    color: var(--text-color);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    overflow-y: scroll;
+    max-height: 150px;
+  }
+
+
+  /* Style for the dropdown content items */
+  .dropdown-content li {
+    padding: 12px 16px;
+    text-decoration: none;
+    justify-content: end;
+  }
+  .dropdown-content li img {
+    margin: 0 20px 0px 20px;
+  }
+  /* Style for the dropdown content items on hover */
+  .dropdown-content li:hover {
+    background-color: var(--button-background-color-hover);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  /* Show the dropdown content when the dropdown button is clicked */
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+  /* Animate the dropdown content */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .dropdown-content {
+    animation: slideIn 0.3s ease-out;
+  }
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c2c9d2;
+  }

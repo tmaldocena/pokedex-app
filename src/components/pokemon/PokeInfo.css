@@ -1,0 +1,131 @@
+.fade-in-top {
+	-webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.container-pokeInfo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.paragraph {
+  width: 50%;
+  padding: 20px;
+}
+
+.paragraph p::first-letter, strong {
+    text-transform: capitalize;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    border: 2px solid black;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background-color: var(--background-color);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card__image {
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid black;
+    background-image: url('../../assets/pokemon-background.png');
+    background-size: cover;
+}
+
+.card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card__title::first-letter{
+    text-transform: capitalize;
+}
+
+.card__subtitle{
+    margin-bottom: 1rem;
+}
+
+.card__text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card__buttons {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.card__button {
+    flex: 1;
+    padding: 10px;
+    background-color: #7FAD71;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card__button:hover {
+    background-color: #3e8e41;
+}
+
+.evolution-chain {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 2rem;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+}
+.evolution-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.evolution-card {
+    padding: 2rem;
+    background-color: var(--background-main-color);
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px black;
+}
+.evolution-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.evolution-card h3::first-letter{
+    text-transform: capitalize;
+}
+.evolution-card img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.3);
+}

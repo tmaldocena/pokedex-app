@@ -1,0 +1,31 @@
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-top: 2px solid black;
+}
+
+.position{
+    position: fixed;
+}
+
+.footer a{
+    color: var(--text-color-hover);
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.footer a:hover{
+    color: var(--active);
+    text-decoration: underline;
+}
+
+.footer img{
+    height: 5%;
+    width: 5%;
+    margin-bottom: 1rem;
+}

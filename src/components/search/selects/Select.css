@@ -1,0 +1,12 @@
+.select-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20%;
+}
+
+.select-container select{
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid var(--background-color);
+    transition: all 1s ease-in-out;
+}

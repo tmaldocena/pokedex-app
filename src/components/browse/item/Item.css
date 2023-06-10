@@ -1,0 +1,57 @@
+.grid-item {
+    border: 2px solid var(--text-color);
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+.grid-item img{
+    background-image: url('https://i.imgur.com/2gfwG.png');
+    background-size: 200%;
+    background-position-y: -5rem;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+.info__card {
+    padding: 10px;
+    line-height: 1;
+    border-top: 2px solid var(--text-color);
+}
+
+.info__card h3::first-letter{
+    text-transform: capitalize;
+}
+
+.grid-row .grid-item h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.grid-row .grid-item:hover {
+    filter: contrast(0.9);
+    transform: scale(1.1);
+}
+.grid-row .grid-item {
+    transition: filter 0.5s ease;
+    transition: transform .3s ease-in-out;
+    display: flex;
+    cursor: pointer;
+    background: var(--background-color);
+    box-shadow: var(--shadow);
+    text-align: center;
+    font-family: sans-serif;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

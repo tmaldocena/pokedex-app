@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: var(--background-color);
+    border-bottom: 2px solid #000;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: var(--menu-text-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.navbar-logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    color: var(--menu-border-color);
+}
+
+.navbar-div{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.navbar-links{
+    color: var(--menu-text-color);
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in;
+}
+
+.navbar-links:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.darkMode {
+    position: relative;
+    padding-left: 30px; /* adjust as needed */
+    cursor: pointer;
+}
+
+.darkMode::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* make icon round */
+    border: 1px solid var(--background-color); 
+    /* Set background colors and icon here */
+    background-image: url("../../assets/moon.svg");
+    background-repeat: no-repeat;
+    background-size: 100%; /* change icon size as required */
+    background-position: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 2px;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    visibility: hidden;
+    border-radius: 50%; /* make checkbox round */
+}
+
+.darkMode::before + input[type="checkbox"]:checked {
+    background-color: white;
+    background-image: url("../../assets/moon.svg");
+}
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 20vh;
+    }
+    .navbar-div{
+        width: 85%;
+        margin-left: 10%;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    .darkMode{
+        position: absolute;
+        padding-left: 0;
+        top: 30px;
+        left: 25px;
+    }
+}

@@ -1,0 +1,22 @@
+.memes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 4rem;
+    margin: 3rem 3rem;
+}
+
+.memes-container img{
+    min-width: 10rem;
+    max-width: 12rem;
+    transition: all 1s ease-in-out;
+    border: 1px solid var(--text-color);
+    box-shadow: var(--shadow);
+}
+
+.memes-container img:hover{
+    transform: scale(1.2);
+}

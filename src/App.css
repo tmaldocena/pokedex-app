@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+#light{
+  --background-main-color: #ffffff;
+  --background-main-color-hover: #e2e2e2;
+  --menu-border-color: #252525;
+  --background-color: #f3513c;
+  --text-color: black;
+  --text-color-hover: #3a3a3a;
+  --active: #d6d328;
+  --menu-text-color: #a7acaf;
+  --menu-text-hover-color: #2c3e50;
+  --button-background-color: #c0392b;
+  --button-background-color-hover: #c76257;
+  --shadow: 3px 0px 5px darkgray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#dark{
+    --background-main-color: #2c2c2c;
+    --background-main-color-hover: #464646;
+    --menu-border-color: #4b4b4b;
+    --background-color: #922B21;
+    --text-color: white;
+    --text-color-hover: #999999;
+    --active: #F77F00;
+    --menu-text-color: #bdc3c7;
+    --menu-text-hover-color: #3d3d3d;
+    --button-background-color: #922B21;
+    --button-background-color-hover: #bd5248;
+    --shadow: 3px 0px 5px darkgray;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html body #root {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--background-main-color) 50%, var(--menu-text-hover-color) 100%);
+    color: var(--text-color);
+    animation: infinite 1s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card__badge{
+  margin-bottom: 1rem;
+}
+
+.badge {
   color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.fighting{
+  background-color: deeppink;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.psychic{
+  background-color: pink;
+  color: black;
+}
+
+.poison{
+  background-color: rgb(169, 82, 196);
+}
+
+.dragon{
+  background-color: blueviolet;
+}
+
+.ghost{
+  background-color: darkblue;
+}
+
+.dark{
+  background-color: darkslategray;
+}
+
+.ground{
+  background-color: salmon;
+}
+
+.fire{
+  background-color: rgb(185, 0, 0);
+}
+
+.fairy{
+  background-color: rgb(178, 117, 224);
+}
+
+.water{
+  background-color: rgb(143, 180, 192);
+}
+
+.flying{
+  background-color: skyblue;
+}
+
+.normal{
+  background-color: lightgrey;
+  color: black;
+}
+
+.rock{
+  background-color: rgb(207, 207, 187);
+  color: black;
+}
+
+.electric{
+  background-color: rgb(226, 226, 0);
+  color: black;
+}
+
+.bug{
+  background-color: green;
+}
+
+.grass{
+  background-color: lightgreen;
+  color: black;
+}
+
+.ice{
+  background-color: lightskyblue;
+  color: black;
+}
+
+.steel{
+  background-color: grey;
 }

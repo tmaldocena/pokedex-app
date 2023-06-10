@@ -1,0 +1,36 @@
+.container-noPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+
+.image-noPage{
+    width: 19rem;
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97);
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+  @keyframes shake {
+    0%, 20% { transform: translate(0, 0) rotate(0); }
+    30% { transform: translate(-2px, 0) rotate(-5deg); }
+    40% { transform: translate(2px, 0) rotate(5deg); }
+    50% { transform: translate(-2px, 0) rotate(-5deg); }
+    60% { transform: translate(2px, 0) rotate(5deg); }
+    70% { transform: translate(-2px, 0) rotate(-5deg); }
+    80%, 100% { transform: translate(0, 0) rotate(0); }
+  }
+
+  @keyframes shake2 {
+    from {
+        transform: translate3d(0,0,0);
+    }
+    to {
+        transform: translate3d(10px, 0, 0);
+    }
+  }
+  
