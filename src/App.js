@@ -30,14 +30,14 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <HashRouter>
+      <HashRouter basename='/pokedex-app'>
         <Navbar/>
         <Routes>
-          <Route path='./' index element={ <Home/> } />
-          <Route path='./browse' element={ <Browse/> } />
-          <Route path='./search' element={ <Search/> } />
-          <Route path='./pokemon/:id' element={ <PokeInfo/> } />
-          <Route path='./memes' element={ <Memes/> } />
+          <Route path='/' index element={ <Home/> } />
+          <Route path='/browse' element={ <Browse/> } />
+          <Route path='/search' element={ <Search/> } />
+          <Route path='/pokemon/:id' element={ <PokeInfo/> } />
+          <Route path='/memes' element={ <Memes/> } />
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer/>
