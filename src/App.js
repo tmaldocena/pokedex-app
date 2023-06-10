@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Browse from './components/browse/Browse';
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar/>
         <Routes>
           <Route path='/' index element={ <Home/> } />
@@ -41,7 +41,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeContext.Provider>
   );
 }
