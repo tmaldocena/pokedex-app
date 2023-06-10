@@ -25,7 +25,7 @@ function Autocomplete() {
     }, [searchTerm]);
 
     const onInputChange = (event) => {
-    setSearchTerm(event.target.value);
+        setSearchTerm(event.target.value);
     };
 
 

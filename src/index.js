@@ -7,10 +7,7 @@ import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <HashRouter basename='/pokedex-app'>
-        <App  />
-    </HashRouter>
-
+        <App />
 );
 
 // If you want to start measuring performance in your app, pass a function

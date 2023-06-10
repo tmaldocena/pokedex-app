@@ -29,6 +29,7 @@ const Browse = () => {
             setData(dataResults);
         }
         let params = (new URL(document.location).searchParams);
+        console.log(params);
         if(params.get('type')){
             setFilter({type: 'type',param: params.get('type')});
             console.log('aca');

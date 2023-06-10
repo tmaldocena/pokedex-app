@@ -66,11 +66,17 @@
   .dropdown-content li:hover {
     background-color: var(--button-background-color-hover);
     cursor: pointer;
+    color: var(--text-color-hover);
     border-radius: 5px;
   }
   /* Show the dropdown content when the dropdown button is clicked */
   .dropdown:focus-within .dropdown-content {
     display: block;
+  }
+
+  .dropdown-link{
+    text-decoration: none;
+    color: var(--text-color);
   }
   /* Animate the dropdown content */
   @keyframes slideIn {
