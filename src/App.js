@@ -30,7 +30,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <HashRouter basename='/pokedex-app'>
+      
         <Navbar/>
         <Routes>
           <Route path='./' index element={ <Home/> } />
@@ -41,7 +41,6 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer/>
-      </HashRouter>
     </ThemeContext.Provider>
   );
 }
