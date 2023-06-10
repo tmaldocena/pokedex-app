@@ -27,9 +27,9 @@ const Dropdown = () => {
     useEffect(() => {
         if(redirect.param !== undefined){
             if(redirect.param === 'type'){
-                window.location.href = '/browse/?type=' + redirect.type;
+                window.location.href = '/pokedex-app/browse/?type=' + redirect.type;
             }else{
-                window.location.href = '/browse/?gen=' + redirect.type;
+                window.location.href = '/pokedex-app/browse/?gen=' + redirect.type;
             }
         }
     }, [redirect]);

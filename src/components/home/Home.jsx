@@ -20,7 +20,7 @@ const Home = () => {
                 </h1>
             </div>
             <p>Here you will find the whole list of pokemons and their own descriptions.</p>
-            <p>You can also see the full list of pokemons <Link to='/browse' id='hereLink'>here</Link></p>
+            <p>You can also see the full list of pokemons <Link to='/pokedex-app/browse' id='hereLink'>here</Link></p>
         </div>
     );
 }

@@ -41,7 +41,7 @@ function Autocomplete() {
                 {searchResults.length > 0 ? (
                     <ul className="autocomplete-list">
                         {searchResults.map((result, index) => (
-                            <Link className='pokeLi' onClick={()=> window.location.href = '/pokemon/'+result.name}>
+                            <Link className='pokeLi' onClick={()=> window.location.href = '/pokedex-app/pokemon/'+result.name}>
                                 <li key={index}>{result.name}</li>
                             </Link>
                     ))}

@@ -30,7 +30,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <BrowserRouter>
+      <BrowserRouter basename='/pokedex-app'>
         <Navbar/>
         <Routes>
           <Route path='/' index element={ <Home/> } />
