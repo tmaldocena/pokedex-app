@@ -1,70 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokedex App
 
-## Available Scripts
+Author: Tomás Maldocena
 
-In the project directory, you can run:
+The Pokedex App is a web application designed to provide comprehensive information about Pokémon, including their types, Pokedex ID numbers, evolution chains, and shiny versions. The app is built using ReactJS, CSS, and JavaScript, and utilizes the PokeAPI to fetch data.
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Pokemon Listing:** Display a complete list of all Pokémon, including their types and Pokedex ID numbers.
+- **Individual Pokemon Pages:** Each Pokémon has a dedicated page that showcases its evolution chain and shiny version.
+- **Search and Filtering:** Search for specific Pokémon by name and apply filters based on type or generation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- ReactJS
+- CSS
+- JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API Integration
 
-### `npm run build`
+The app integrates with the [PokeAPI](https://pokeapi.co/), a comprehensive API that provides all the necessary data about Pokémon. The PokeAPI serves as the primary data source for the app, ensuring accurate and up-to-date information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Pokedex App is hosted and publicly accessible at [https://tmaldocena.github.io/pokedex-app/](https://tmaldocena.github.io/pokedex-app/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Testing and Quality Assurance
 
-### `npm run eject`
+The application underwent rigorous testing to ensure a reliable user experience. Testing and quality assurance procedures were implemented to identify and resolve any bugs or issues.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Notable Achievements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Pokedex App has received positive user feedback for its user-friendly interface and comprehensive Pokémon information. It has gained popularity among Pokémon enthusiasts and has seen steady user adoption since its launch.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Responsive Design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Pokedex App is designed to be responsive and optimized for both desktop and mobile devices. It offers a seamless and consistent user experience across different screen sizes, allowing users to access Pokémon information on the go.
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the Pokedex App locally, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repository: `git clone https://github.com/tmaldocena/pokedex-app.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
